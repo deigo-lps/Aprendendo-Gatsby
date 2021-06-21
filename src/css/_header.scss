@@ -1,0 +1,63 @@
+@mixin inp-but-style() {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 48.7%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+  background-size: cover;
+  height: 700px;
+  color: #fff;
+  h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .get_started {
+    background-color: $red;
+    margin-left: 4.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 300px;
+    width: 45%;
+    padding: 50px 30px;
+    border: 1px solid #e68580;
+    h2 {
+      font-size: 30px;
+    }
+    form {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      input {
+        @include inp-but-style();
+        margin: 7px 0;
+      }
+      button {
+        @include inp-but-style();
+        margin-top: 7px;
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+  #check {
+    margin-left: 4.5%;
+    margin-top: 15px;
+    font-size: 20px;
+    li {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
