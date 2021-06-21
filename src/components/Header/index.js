@@ -22,7 +22,7 @@ export default function Header() {
           <button type="submit">SIGN UP</button>
         </form>
       </div>
-      <IconContext.Provider value={{ color:"#ce0a00", size:20 }}>
+      <IconContext.Provider value={{ className: "header__icones"}}>
         <ul id="check">
           <li><FaCheckSquare/> BUILD AND SUSTAINS MUSCLE</li>
           <li><FaCheckSquare/> PERFORMANCE ENHANCING</li>
