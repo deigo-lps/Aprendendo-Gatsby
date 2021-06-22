@@ -9,10 +9,10 @@ function Input(props){
 }
 export default function Header() {
   return (
-    <div class="header">
+    <div className="header">
       <Navbar></Navbar>
       <h1>EVERYTHING YOU NEED TO CHISEL<br></br>YOUR MUSCLE</h1>
-      <div class="get_started">
+      <div className="get_started">
         <h2>GET STARTED NOW</h2>
         <form id="get_started_form">
           <Input nome="Full Name" id="input_name"></Input>

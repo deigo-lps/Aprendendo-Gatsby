@@ -67,3 +67,26 @@
     margin-bottom:3px;
   }
 }
+//MOBILE
+@media(max-width: 700px){
+  .header{
+    align-items: center;
+    height: 100%;
+    h1{font-size:2rem}
+    .get_started{
+      padding:20px;
+      height: 400px;
+      width: 300px;
+      justify-content: center;
+      form{
+        flex-direction: column;
+        input,button{
+          width: 100%;
+        }
+      }
+    }
+    #check{
+      margin-bottom:10px;
+    }
+  }
+}

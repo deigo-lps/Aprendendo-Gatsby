@@ -31,3 +31,14 @@
     font-size:25px;
   }
 }
+//MOBILE
+@media(max-width: 700px){
+  .navbar{
+    flex-direction: column;
+    text-align: center;
+    .navbar__content{li{a{flex-direction: column;font-size:18px;}}}
+    .navbar__icones,a{
+      font-size: 18px;
+    }
+  }
+}
