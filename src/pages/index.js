@@ -4,7 +4,7 @@ import IncreaseMuscle from '../components/IncreaseMuscle';
 import Videos from '../components/Videos'
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
-import '../css/main.scss'
+import '../assets/scss/main.scss'
 // markup
 export default function Index() {
   return (

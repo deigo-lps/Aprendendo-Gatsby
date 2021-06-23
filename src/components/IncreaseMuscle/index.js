@@ -1,6 +1,6 @@
 import React from 'react';
-import imagem2 from '../../images/img2.jpg';
-import imagem6 from '../../images/img6.jpg';
+import imagem2 from '../../assets/images/img2.jpg';
+import imagem6 from '../../assets/images/img6.jpg';
 export default function IncreaseMuscle(props){
   if(props.children==1){
   return(

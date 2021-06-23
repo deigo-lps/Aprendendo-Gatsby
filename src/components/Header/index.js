@@ -3,7 +3,7 @@ import Navbar from '../Navbar';
 import { FaCheckSquare } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import InputMask from "react-input-mask";
-import verify from "../../js/verify-form"
+import verify from "../../assets/js/verify-form"
 
 function Input(props){
   return(

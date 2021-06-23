@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../../images/img3.jpg';
-import img2 from '../../images/img4.jpg';
-import img3 from '../../images/img5.jpg';
+import img1 from '../../assets/images/img3.jpg';
+import img2 from '../../assets/images/img4.jpg';
+import img3 from '../../assets/images/img5.jpg';
 function Video(props) {
   return (
     <div>
