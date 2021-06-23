@@ -2,9 +2,12 @@ import React from 'react';
 import Navbar from '../Navbar';
 import { FaCheckSquare } from 'react-icons/fa';
 import { IconContext } from "react-icons";
+import InputMask from "react-input-mask";
+
 function Input(props){
   return(
-    <input type="text" placeholder={props.nome} id={props.id} required></input>
+    <InputMask placeholder={props.children} id={props.id} mask={props.mask}/>
+    // <input type="text" placeholder={props.nome} id={props.id} required></input>
   )
 }
 export default function Header() {
@@ -15,10 +18,10 @@ export default function Header() {
       <div className="get_started">
         <h2>GET STARTED NOW</h2>
         <form id="get_started_form">
-          <Input nome="Full Name" id="input_name"></Input>
-          <Input nome="Phone Number" id="input_number"></Input>
-          <Input nome="Email Address" id="input_email"></Input>
-          <Input nome="Zip Code" id="input_zip"></Input>
+          <Input id="input_name">Full Name</Input>
+          <Input id="input_number" mask="(99) 99999-9999">Phone Number</Input>
+          <Input id="input_email">Email Address</Input>
+          <Input id="input_zip" mask="99999-999">Zip Code</Input>
           <button type="submit">SIGN UP</button>
         </form>
       </div>
