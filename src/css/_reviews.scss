@@ -1,0 +1,29 @@
+.reviews{
+  background-color:$color2;
+  display: flex;
+  padding: 60px 80px 60px 80px;
+  align-items: center;
+  color:#fff;
+  div:nth-child(2){
+    margin:0 40px;
+  }
+  p{font-size:18px;}
+  .reviews__icone{
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  footer{
+    color:$color1;
+    font-size:20px;
+    margin-top:20px;
+  }
+}
+@media(max-width: 600px){
+  .reviews{
+    flex-direction: column;
+    padding: 60px 40px 60px 40px;
+    div:nth-child(2){
+      margin:40px 0;
+    }
+  }
+}
