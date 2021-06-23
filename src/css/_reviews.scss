@@ -1,7 +1,7 @@
 .reviews{
   background-color:$color2;
   display: flex;
-  padding: 60px 80px 60px 80px;
+  padding: 60px $padding 60px $padding;
   align-items: center;
   color:#fff;
   div:nth-child(2){
@@ -20,8 +20,9 @@
 }
 @media(max-width: 600px){
   .reviews{
+    padding: 60px $padding-mobile 60px $padding-mobile;
     flex-direction: column;
-    padding: 60px 40px 60px 40px;
+    // padding: 60px 40px 60px 40px;
     div:nth-child(2){
       margin:40px 0;
     }

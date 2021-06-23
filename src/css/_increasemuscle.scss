@@ -1,7 +1,7 @@
 .increase_muscle {
   display: flex;
   justify-content: space-around;
-  padding: 0 80px;
+  padding: 0 $padding;
   img {
     object-fit: cover;
     width: 50%;
@@ -24,7 +24,7 @@
 @media (max-width: 600px) {
   .increase_muscle {
     flex-direction: column;
-    padding:0 40px;
+    padding:0 $padding-mobile;
     img{
       margin:30px 0;
       width:100%;

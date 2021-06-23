@@ -1,7 +1,7 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  margin:1% 4.5%;
+  padding:1% 0;
   font-size: 25px;
   .navbar__content{
     display: flex;
@@ -32,7 +32,7 @@
   }
 }
 //MOBILE
-@media(max-width: 700px){
+@media(max-width: 830px){
   .navbar{
     flex-direction: column;
     text-align: center;

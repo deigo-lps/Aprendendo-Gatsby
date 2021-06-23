@@ -6,6 +6,7 @@
 }
 .header {
   display: flex;
+  padding: 0 $padding;
   flex-direction: column;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
   background-size: cover;
@@ -22,7 +23,6 @@
   }
   .get_started {
     background-color: $color1;
-    margin-left: 4.5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -52,7 +52,6 @@
     }
   }
   #check {
-    margin-left: 4.5%;
     margin-top: 15px;
     font-size: 20px;
     li {
@@ -62,21 +61,22 @@
   }
   .header__icones{
     color:$color1;
-    font-size:25px;
+    font-size:20px;
     margin-right:5px;
     margin-bottom:3px;
   }
 }
 //MOBILE
-@media(max-width: 700px){
+@media(max-width: 830px){
   .header{
     align-items: center;
     height: 100%;
     h1{font-size:2rem}
+    padding:0 $padding-mobile;
     .get_started{
       padding:20px;
       height: 400px;
-      width: 300px;
+      width: 100%;
       justify-content: center;
       form{
         flex-direction: column;
