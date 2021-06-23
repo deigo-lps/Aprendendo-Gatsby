@@ -14,13 +14,7 @@ nvm use
 npm install
 ```
 
-3. Instale o pacote de icones
-
-```sh
-npm install react-icons --save
-```
-
-4. Incie o projeto
+3. Incie o projeto
 
 ```sh
 npm run start
