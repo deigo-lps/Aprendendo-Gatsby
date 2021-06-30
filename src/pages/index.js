@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Header from '../components/Header';
 import IncreaseMuscle from '../components/IncreaseMuscle';
+import IncreaseMuscle2 from '../components/IncreaseMuscle2';
 import Videos from '../components/Videos'
 import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
@@ -10,9 +11,9 @@ export default function Index() {
   return (
     <main>
       <Header></Header>
-      <IncreaseMuscle>1</IncreaseMuscle>
-      <Videos></Videos>
       <IncreaseMuscle></IncreaseMuscle>
+      <Videos></Videos>
+      <IncreaseMuscle2></IncreaseMuscle2>
       <Reviews></Reviews>
       <Footer></Footer>
     </main>
